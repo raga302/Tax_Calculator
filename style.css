@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.input_icon, .extra_input_icon, .deduction_input_icon{
+    background-color: red;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px 0;
+    border-radius: 50%;
+    color: aliceblue;
+    
+}
+
+.input_icon, .extra_input_icon, .deduction_input_icon{
+        display: none;
+    
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(120deg, rgb(38, 66, 75), rgb(38, 66, 75));
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.container h1{
+    font-size: 6vw;
+    color: aliceblue;
+    font-weight: bold;
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+}
+
+.container label{
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-family:monospace;
+    color: antiquewhite;
+    margin-top: 1.5rem ;
+}
+
+.container input, .age{
+    height: 35px;
+    border-radius: 8px;
+    border:  none;
+    outline: none;
+    padding-left: 10px;
+    background-color: gray;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.container .error_message {
+    color: rgb(241, 122, 122);
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .container h1{
+        font-size: 7vw;
+        
+    }
+
+    .container label{
+        font-size: 2vw;
+    }
+  }
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    .container label{
+        font-size: 3vw;
+    }
+  }
+
+
+@media only screen and (max-width: 568px) {
+    .container h1{
+        font-size: 10vw;
+        
+    }
+
+    .container label{
+        font-size: 4vw;
+    }
+  }
+
+
+@media only screen and (max-width: 412px) {
+    .container h1{
+        font-size: 10vw;
+        
+    }
+
+    .container label{
+        font-size: 4vw;
+    }
+  }
